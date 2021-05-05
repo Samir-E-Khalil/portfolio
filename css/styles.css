@@ -2,6 +2,7 @@
 :root {
   --default: #c6ccd3;
   --black: #222222;
+  /* --blue: #42ccf1; */
   --blue: #42ccf1;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -331,7 +332,7 @@ a {
   transition: 0.28s ease-in-out;
 }
 a:hover {
-  color: #42ccf1;
+  color: var(--blue);
   text-decoration: underline;
 }
 
@@ -545,6 +546,12 @@ h6,
   font-weight: 700;
   line-height: 1.2;
   color: #c6ccd3;
+}
+
+/* texts */
+
+.small-text {
+  font-size: 0.65rem;
 }
 
 .black-text {
@@ -6710,7 +6717,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background: #42ccf1;
+  background: var(--blue);
   box-shadow: 0px 0px 8px 2px rgb(0 0 0 / 10%);
 }
 
@@ -10446,7 +10453,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #42ccf1;
+  color: var(--blue);
 }
 
 a.text-primary:hover,
@@ -10782,7 +10789,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  color: #42ccf1;
+  color: var(--blue);
   transform: translateY(-4px);
 
   box-shadow: 5px 6px 5px 0px rgb(0 0 0 / 15%);
@@ -10815,7 +10822,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .email-icon:hover {
-  color: #42ccf1;
+  color: var(--blue);
   transform: translateY(-4px);
 
   box-shadow: 5px 6px 5px 0px rgb(0 0 0 / 15%);
@@ -11008,7 +11015,7 @@ Slider
 }
 .prevBtn:hover,
 .nextBtn:hover {
-  color: #42ccf1;
+  color: var(--blue);
 }
 
 @media screen and (min-width: 576px) {
@@ -11033,10 +11040,23 @@ Slider
   /* padding-left: 1rem; */
   padding-top: 3px;
   display: flex;
-  height: 5.5rem;
+  height: 5.9rem;
   max-width: 33.7rem;
-  background: #222222e8;
-  box-shadow: 1px 1px 2px 0px rgb(0 0 0 / 50%);
+  background: #222222;
+  /* box-shadow: 1px 1px 2px 0px rgb(0 0 0 / 50%); */
+  /* border-bottom: 2px solid var(--gray-dark); */
+}
+
+.intro-bottom {
+  /* padding-left: 1rem; */
+  overflow: hidden;
+  height: 1.2rem;
+  padding: 2px 5px;
+  max-width: 33.7rem;
+  background: #26a5c7;
+
+  /* box-shadow: 1px 1px 2px 0px rgb(0 0 0 / 10%); */
+  /* border-bottom: 1px solid var(--gray-dark); */
 }
 
 .intro-numbers {
