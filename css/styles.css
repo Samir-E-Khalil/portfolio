@@ -10850,12 +10850,12 @@ section.resume-section .resume-section-content {
 .shadow-div {
   visibility: hidden;
   position: absolute;
-  min-height: 98%;
+  min-height: 97%;
   width: 14rem;
   background-color: #070d13de;
   z-index: 100;
   right: calc(100% - 14rem);
-  box-shadow: -1px 6px 6px 2px #070d13de, -1px -6px 6px 2px #070d13de;
+  box-shadow: -1px 8px 6px 2px #070d13de, -1px -8px 6px 2px #070d13de;
 }
 
 #education,
