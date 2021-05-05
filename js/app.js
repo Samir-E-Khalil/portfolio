@@ -66,10 +66,11 @@ window.addEventListener("scroll", function () {
 // ------------- typing FX -----------------------------
 
 const texts = [
-  "Game development ",
+  "Game Development ",
   "Programming ",
   " UI & UX Design ",
   "Web Design ",
+  "Web Development ",
 ];
 let count = 0;
 let index = 0;
@@ -88,7 +89,7 @@ let letter = "";
     count++;
     index = 0;
   }
-  setTimeout(type, 150);
+  setTimeout(type, 110);
 })();
 
 // modal fx
@@ -99,7 +100,9 @@ const closeBtn = document.querySelector(".close-btn");
 
 modalBtn.addEventListener("click", function () {
   modal.classList.add("open-modal");
+  $("html").css("overflow", "hidden");
 });
 closeBtn.addEventListener("click", function () {
   modal.classList.remove("open-modal");
+  $("html").css("overflow", "auto");
 });

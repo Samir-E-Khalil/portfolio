@@ -10774,7 +10774,7 @@ p.lead {
   margin-right: 2.42rem;
   transition: 0.2s ease-in-out;
   box-shadow: 3px 4px 3px 0px rgb(0 0 0 / 15%);
-  
+
   vertical-align: top;
   /* box-shadow: 2px 4px 0px #898999; */
 }
@@ -10809,7 +10809,6 @@ p.lead {
   transform: none;
   border-radius: 40px;
 
-  
   vertical-align: top;
 }
 .social-icons .email-icon:last-child {
@@ -11182,7 +11181,8 @@ Slider
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(5, 8, 10, 0.5);
+  /* background: rgba(5, 8, 10, 0.5); */
+  background: rgba(255, 255, 255, 0.25);
   display: grid;
   place-items: center;
   /* transition: var(--transition); */
@@ -11196,6 +11196,7 @@ Slider
   z-index: 110;
 }
 .modal-container {
+  /*   
   background: linear-gradient(
     to top right,
     #74787c,
@@ -11203,9 +11204,10 @@ Slider
     #74787c,
     #888e94,
     #74787c
-  );
-
-  border-radius: 6px;
+  ); */
+  background: var(--blue);
+  /* border-radius: 8px; */
+  color: var(--black);
   width: 90vw;
   height: 70vh;
   max-width: 30rem;
@@ -11213,21 +11215,21 @@ Slider
   display: grid;
   place-items: center;
   position: relative;
-  box-shadow: inset 0px 0px 3px rgb(228, 228, 228);
+  /* box-shadow: inset 0px 0px 3px rgb(228, 228, 228); */
+  box-shadow: 1px 1px 4px 0px rgb(0 0 0 / 15%);
 }
 .close-btn {
   position: absolute;
-  top: 1rem;
-  right: 1rem;
-  font-size: 2rem;
+  top: 0.35rem;
+  right: 0.6rem;
+  font-size: 1.6rem;
   background: transparent;
   border-color: transparent;
-  color: var(--red);
+  color: var(--gray-dark);
   cursor: pointer;
   /* transition: var(--transition); */
 }
 .close-btn:hover {
-  color: var(--red);
   transform: scale(1.1);
 }
 
@@ -11246,10 +11248,10 @@ form {
   margin: 0px auto;
   width: 90%;
 
-  background: rgba(255, 255, 255, 0.1);
+  background: transparent;
   border: none;
   outline: none;
-  border-bottom: 2px solid var(--blue);
+  border-bottom: 1px solid var(--gray);
   color: #fff;
   font-size: 1rem;
   margin-bottom: 1rem;
