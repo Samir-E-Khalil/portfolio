@@ -591,7 +591,7 @@ h6,
 
 .blue-text {
   color: var(--blue);
-  text-shadow: 2px 4px 0px #46aae4;
+  text-shadow: 2px 4px 0px #7a94a5;
 }
 
 h1,
@@ -10685,7 +10685,7 @@ h6 {
 
 h1 {
   line-height: 1;
-  text-shadow: 2px 4px 0px #b3b3d4;
+  text-shadow: 2px 4px 0px #9c9cad;
 }
 
 p.lead {
