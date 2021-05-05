@@ -50,7 +50,7 @@ function parallax(element, distance, speed) {
 }
 
 window.addEventListener("scroll", function () {
-  parallax(".theme-image", window.scrollY, 0.425);
+  parallax(".theme-image", window.scrollY, 0.375);
 
   parallax(".theme-image-blue", window.scrollY, 0.525);
 
