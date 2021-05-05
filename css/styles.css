@@ -80,11 +80,13 @@ body {
   color: #c6ccd3;
   text-align: left;
 
-  background: #bdc3c7;
+  background: #7c868f;
+/*   
+  background: #8b8f92;
   background: linear-gradient(to top, #2c3e50, #bdc3c7);
   background: -webkit-linear-gradient(to top, #2c3e50, #bdc3c7);
   background: -o-linear-gradient(to top, #2c3e50, #bdc3c7);
-  background: -moz-linear-gradient(to top, #2c3e50, #bdc3c7);
+  background: -moz-linear-gradient(to top, #2c3e50, #bdc3c7); */
 
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -591,7 +593,7 @@ h6,
 
 .blue-text {
   color: var(--blue);
-  text-shadow: 2px 4px 0px #587a84;
+  text-shadow: 2px 4px 0px #46aae4;
 }
 
 h1,
@@ -7055,6 +7057,16 @@ button.bg-dark:focus {
     opacity: 0;
   }
 
+  body{
+    
+  
+  background: #8b8f92;
+  background: linear-gradient(to top, #2c3e50, #bdc3c7);
+  background: -webkit-linear-gradient(to top, #2c3e50, #bdc3c7);
+  background: -o-linear-gradient(to top, #2c3e50, #bdc3c7);
+  background: -moz-linear-gradient(to top, #2c3e50, #bdc3c7);
+  }
+
   .white-text ul li h2 {
     font-size: 2.2rem;
   }
@@ -10685,7 +10697,7 @@ h6 {
 
 h1 {
   line-height: 1;
-  text-shadow: 2px 4px 0px #76768a;
+  text-shadow: 2px 4px 0px #b3b3d4;
 }
 
 p.lead {
@@ -11043,7 +11055,6 @@ Slider
   height: 5.9rem;
   max-width: 33.7rem;
   background: #222222;
-  /* box-shadow: 1px 1px 2px 0px rgb(0 0 0 / 50%); */
   /* border-bottom: 2px solid var(--gray-dark); */
 }
 
@@ -11053,9 +11064,9 @@ Slider
   height: 1.2rem;
   padding: 2px 5px;
   max-width: 33.7rem;
-  background: #26a5c7;
+  background: #46aae4;
 
-  /* box-shadow: 1px 1px 2px 0px rgb(0 0 0 / 10%); */
+  box-shadow: 0px 1px 1px 0px rgb(0 0 0 / 10%);
   /* border-bottom: 1px solid var(--gray-dark); */
 }
 
@@ -11229,7 +11240,7 @@ Slider
   /* border-radius: 8px; */
   color: var(--black);
   width: 90vw;
-  height: 35rem;
+  height: 32.5rem;
   max-width: 30rem;
   text-align: center;
   display: grid;
@@ -11266,7 +11277,7 @@ form {
 
 .form-control {
   margin: 0px auto;
-  width: 90%;
+  width: 85%;
 
   background: transparent;
   border: none;
@@ -11276,7 +11287,12 @@ form {
   font-size: 1rem;
   margin-bottom: 1rem;
   border-radius: 0px;
+
   /* transition: all 0.2s ease-in-out; */
+}
+
+.text-area {
+  resize: none;
 }
 
 input {
@@ -11291,8 +11307,8 @@ form .submit {
   border-radius: 20rem;
   justify-content: center;
   text-align: center;
-  width: 15rem;
-  height: 3.6rem;
+  width: 12rem;
+  height: 4rem;
 
   color: #566573;
 
@@ -11305,4 +11321,6 @@ form .submit {
 form .submit:hover {
   color: var(--blue);
   cursor: pointer;
+
+  transform: translateY(-1px);
 }
