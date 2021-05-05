@@ -10850,7 +10850,7 @@ section.resume-section .resume-section-content {
 .shadow-div {
   visibility: hidden;
   position: absolute;
-  min-height: 97%;
+  min-height: 97.1%;
   width: 14rem;
   background-color: #070d13de;
   z-index: 100;
