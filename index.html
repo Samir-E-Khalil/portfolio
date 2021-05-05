@@ -145,7 +145,7 @@
       <div class="modal-container font-weight-bold">
         <div class="contact-form">
           <h3 class="white-text">contact</h3>
-          <form id="contact-form frm " method="post" action="php/contact-form-handler.php" data-netlify="true">
+          <form id="contact-form frm " method="post" netlify-honeypot="bot-field" action="php/contact-form-handler.php" data-netlify="true">
             <input type="text" name="name" class="form-control" placeholder="Name" required> 
             <br>
             <input type="email" name="email" class="form-control" placeholder="Email" required>
@@ -153,7 +153,7 @@
 
             <textarea name="message" id="" class="form-control" placeholder="Message" rows="4" required></textarea>
             <br>
-
+            
             <input type="submit" class="form-control submit  " value="Send Message">
 
 
