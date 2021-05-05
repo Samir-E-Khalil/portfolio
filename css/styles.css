@@ -80,13 +80,11 @@ body {
   color: #c6ccd3;
   text-align: left;
 
-  background: #7c868f;
-/*   
   background: #8b8f92;
   background: linear-gradient(to top, #2c3e50, #bdc3c7);
   background: -webkit-linear-gradient(to top, #2c3e50, #bdc3c7);
   background: -o-linear-gradient(to top, #2c3e50, #bdc3c7);
-  background: -moz-linear-gradient(to top, #2c3e50, #bdc3c7); */
+  background: -moz-linear-gradient(to top, #2c3e50, #bdc3c7);
 
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -7055,16 +7053,6 @@ button.bg-dark:focus {
 @media (min-width: 992px) {
   p span {
     opacity: 0;
-  }
-
-  body{
-    
-  
-  background: #8b8f92;
-  background: linear-gradient(to top, #2c3e50, #bdc3c7);
-  background: -webkit-linear-gradient(to top, #2c3e50, #bdc3c7);
-  background: -o-linear-gradient(to top, #2c3e50, #bdc3c7);
-  background: -moz-linear-gradient(to top, #2c3e50, #bdc3c7);
   }
 
   .white-text ul li h2 {
