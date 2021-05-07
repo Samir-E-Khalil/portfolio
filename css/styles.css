@@ -10862,19 +10862,19 @@ section.resume-section .resume-section-content {
 #projects,
 #interests,
 #awards {
-  background-color: #070d13de;
+  background-color: #080d148c;
 }
 
 #interests {
   background-image: url(../assets/img/interests.jpg),
-    linear-gradient(to right, #07101ad2, #07101a4f);
+    linear-gradient(to right, #060b148c, #060b1436);
   background-blend-mode: darken;
   background-attachment: fixed;
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
 
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 h2.white-text {
