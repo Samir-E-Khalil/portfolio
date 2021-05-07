@@ -10862,12 +10862,12 @@ section.resume-section .resume-section-content {
 #projects,
 #interests,
 #awards {
-  background-color: #080d148c;
+  background-color: #18181d8c;
 }
 
 #interests {
   background-image: url(../assets/img/interests.jpg),
-    linear-gradient(to right, #060b148c, #060b1436);
+    linear-gradient(to right, #2a2a35d2, #17274636);
   background-blend-mode: darken;
   background-attachment: fixed;
   background-size: cover;
@@ -10962,7 +10962,7 @@ Slider
   position: absolute;
   width: 100%;
   height: 100%;
-  background: var(--clr-primary-9);
+  background: #080d148c;
   color: var(--clr-white);
   display: grid;
   place-items: center;
@@ -10989,7 +10989,7 @@ Slider
 }
 
 .slide {
-  background: linear-gradient(#0b1118bd, #0b1118bd);
+  background: linear-gradient(#080d148c, #080d148c);
   align-content: center;
 }
 
