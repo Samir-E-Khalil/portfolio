@@ -10800,6 +10800,7 @@ p.lead {
   background: linear-gradient(to right, #42ccf1, #b58de0, #ff9991);
   color: #fff;
   border-radius: 100%;
+
   font-size: 1.2rem;
   margin-right: 1rem;
   transition: 0.2s ease-in-out;
@@ -11200,7 +11201,6 @@ Slider
   height: 100%;
   /* background: rgba(5, 8, 10, 0.5); */
   background: rgba(0, 0, 0, 0.25);
-  
   display: grid;
   place-items: center;
   /* transition: var(--transition); */
@@ -11224,7 +11224,6 @@ Slider
     #74787c
   ); */
   background: var(--blue);
-  background: linear-gradient(to right, #42ccf1, #b58de0, #ff9991);
   /* border-radius: 8px; */
   color: var(--black);
   width: 95%;
