@@ -97,6 +97,7 @@ body {
   top: 0%;
   right: 0px;
   max-height: 100%;
+  display: none;
   max-width: 38%;
   position: absolute;
   z-index: -95;
@@ -106,7 +107,7 @@ body {
   /* top: 22%; */
   top: 2.6rem;
   right: 0%;
-
+display: none;
   max-width: 32%;
   position: absolute;
   z-index: -90;
@@ -7027,12 +7028,16 @@ button.bg-dark:focus {
 
   .d-md-inline-flex {
     display: inline-flex !important;
-  }c
+  }
 }
 /* main-media */
 @media (min-width: 992px) {
   .theme-image {
     top: 21%;
+  }
+
+  .theme-image, .theme-image-blue{
+    display: block;
   }
   p span {
     opacity: 0;
@@ -10851,7 +10856,7 @@ section.resume-section .resume-section-content {
 #projects,
 #interests,
 #awards {
-  border-radius: 0px 75px 0px 75px;
+  border-radius: 0px 45px 0px 45px;
   background-color: #00020780;
 }
 
@@ -10944,7 +10949,7 @@ Slider
   /* border: 3px solid whitesmoke; */
   overflow: hidden;
   margin-top: 4rem;
-  border-radius: 0px 45px 0px 45px;
+  border-radius: 0px 25px 0px 25px;
   box-shadow: 1px 2px 7px 2px rgb(0 0 0 / 20%);
 }
 
