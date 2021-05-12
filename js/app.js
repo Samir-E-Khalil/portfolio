@@ -44,30 +44,11 @@ prevBtn.style.display = "none";
 
 //----------------parallax FX----------------------------------
 
-// function parallax(element, distance, speed) {
-//   const item = document.querySelector(element);
-//   item.style.transform = `translateY(${distance * speed}px)`;
-// }
-
-// window.addEventListener("scroll", function () {
-//   parallax(".theme-image", window.scrollY, 0.525);
-
-//   parallax(".theme-image-blue", window.scrollY, 0.625);
-
-//   parallax(".parallax", window.scrollY, 0.225);
-// });
-
-// new
 let isMobile = false;
 
 function resetTransform(element) {
   const item = document.querySelector(element);
   item.style.transform = `translateY(0px)`;
-}
-
-function resetFade(element) {
-  const item = document.querySelector(element);
-  item.style.opacity = `1`;
 }
 
 // remove paralax fx on mobile screen, add it if on computer
@@ -94,8 +75,7 @@ $(window).on("resize load", function () {
   }
 });
 
-//-------------------FX------------------------------
-
+// parallax
 if ($(window).width() > 768) {
   // parallax fx on scroll
   function parallax(element, distance, speed) {
