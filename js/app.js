@@ -44,25 +44,76 @@ prevBtn.style.display = "none";
 
 //----------------parallax FX----------------------------------
 
-function parallax(element, distance, speed) {
+// function parallax(element, distance, speed) {
+//   const item = document.querySelector(element);
+//   item.style.transform = `translateY(${distance * speed}px)`;
+// }
+
+// window.addEventListener("scroll", function () {
+//   parallax(".theme-image", window.scrollY, 0.525);
+
+//   parallax(".theme-image-blue", window.scrollY, 0.625);
+
+//   parallax(".parallax", window.scrollY, 0.225);
+// });
+
+// new
+let isMobile = false;
+
+function resetTransform(element) {
   const item = document.querySelector(element);
-  item.style.transform = `translateY(${distance * speed}px)`;
+  item.style.transform = `translateY(0px)`;
 }
 
-window.addEventListener("scroll", function () {
-  parallax(".theme-image", window.scrollY, 0.375);
+function resetFade(element) {
+  const item = document.querySelector(element);
+  item.style.opacity = `1`;
+}
 
-  parallax(".theme-image-blue", window.scrollY, 0.525);
+// remove paralax fx on mobile screen, add it if on computer
+$(window).on("resize load", function () {
+  if ($(window).width() <= 768) {
+    isMobile = true;
 
-  // parallax(".theme-image-white", window.scrollY, 0.545);
+    // reset paralax element transform
+    resetTransform("#about-content");
+    resetTransform("#theme-blue");
+    resetTransform("#theme-image");
 
-  // parallax(".theme-image-blue2", window.scrollY, 0.555);
+    // remove parallax fx
+    $("#about-content").removeClass("parallax1");
+    $("#theme-image").removeClass("parallax2");
+    $("#theme-blue").removeClass("parallax3");
+  } else {
+    isMobile = false;
 
-  // parallax(".theme-image-white2", window.scrollY, 0.585);
-
-  // parallax("#about", window.scrollY, 0.25);
+    // add parallax fx
+    $("#about-content").addClass("parallax1");
+    $("#theme-image").addClass("parallax2");
+    $("#theme-blue").addClass("parallax3");
+  }
 });
 
+//-------------------FX------------------------------
+
+if ($(window).width() > 768) {
+  // parallax fx on scroll
+  function parallax(element, distance, speed) {
+    const item = document.querySelector(element);
+    item.style.transform = `translateY(${distance * speed}px)`;
+  }
+
+  // on scroll event
+  window.addEventListener("scroll", function () {
+    if (isMobile === false) {
+      parallax(".parallax1", window.scrollY, 0.225);
+      parallax(".parallax2", window.scrollY, 0.525);
+      parallax(".parallax3", window.scrollY, 0.625);
+    } else {
+      return;
+    }
+  });
+}
 // ------------- typing FX -----------------------------
 
 const texts = [
