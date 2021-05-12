@@ -93,36 +93,18 @@ body {
   height: 100%;
 }
 
-.theme-image-blue,
-.theme-image-blue2 {
+.theme-image-blue {
   top: 0%;
   right: 0px;
-
   max-height: 100%;
   max-width: 38%;
   position: absolute;
   z-index: -95;
 }
 
-.theme-image-white,
-.theme-image-white2 {
-  top: 0%;
-  right: 0px;
-
-  max-height: 100%;
-  max-width: 40%;
-  position: absolute;
-  z-index: -95;
-}
-
-.theme-image-white2,
-.theme-image-blue2 {
-  z-index: -120;
-}
-
 .theme-image {
   /* top: 22%; */
-  top: 6rem;
+  top: 2.6rem;
   right: 0%;
 
   max-width: 32%;
@@ -7045,10 +7027,13 @@ button.bg-dark:focus {
 
   .d-md-inline-flex {
     display: inline-flex !important;
-  }
+  }c
 }
 /* main-media */
 @media (min-width: 992px) {
+  .theme-image {
+    top: 21%;
+  }
   p span {
     opacity: 0;
   }
@@ -10859,19 +10844,20 @@ section.resume-section .resume-section-content {
   z-index: 100;
   right: calc(100% - 14rem);
   box-shadow: -1px 8px 6px 2px #151d27, -1px -8px 6px 2px #151d27;
+  border-radius: 0px 0px 0px 75px;
 }
 
 #education,
 #projects,
 #interests,
 #awards {
-  /* background-color: #18181d8c; */
+  border-radius: 0px 75px 0px 75px;
   background-color: #00020780;
 }
 
 #interests {
   background-image: url(../assets/img/interests.jpg),
-    linear-gradient(to right, #9da3b3bf, #28335054);
+    linear-gradient(to right, #9da3b3bf, #0b0d1382);
   background-blend-mode: darken;
   background-attachment: fixed;
   background-size: cover;
@@ -10958,7 +10944,7 @@ Slider
   /* border: 3px solid whitesmoke; */
   overflow: hidden;
   margin-top: 4rem;
-
+  border-radius: 0px 45px 0px 45px;
   box-shadow: 1px 2px 7px 2px rgb(0 0 0 / 20%);
 }
 
@@ -11047,6 +11033,7 @@ Slider
   height: 5.9rem;
   max-width: 33.5rem;
   background: #222222;
+
   /* border-bottom: 2px solid var(--gray-dark); */
 }
 
@@ -11187,6 +11174,7 @@ Slider
   #awards {
     padding-top: 1rem;
     padding-bottom: 1rem;
+    border-radius: 0px 75px 0px 0px;
   }
 
   .shadow-div {
