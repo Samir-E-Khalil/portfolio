@@ -10797,8 +10797,8 @@ p.lead {
   height: 4.4rem;
 
   padding: 0rem 2.2rem;
-  background: #fff;
-  color: #566573;
+  background: linear-gradient(to right, #42ccf1, #ff9991);
+  color: #fff;
   border-radius: 100%;
   font-size: 1.2rem;
   margin-right: 1rem;
