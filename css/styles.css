@@ -575,7 +575,7 @@ h6,
 
 .blue-text {
   color: var(--blue);
-  text-shadow: 2px 4px 0px #7a94a5;
+  /* text-shadow: 2px 4px 0px #7a94a5; */
 }
 
 h1,
@@ -10678,7 +10678,7 @@ h6 {
 
 h1 {
   line-height: 1;
-  text-shadow: 2px 4px 0px #9c9cad;
+  /* text-shadow: 2px 4px 0px #9c9cad; */
 }
 
 p.lead {
@@ -10773,7 +10773,7 @@ p.lead {
   font-size: 1.5rem;
   margin-right: 2.35rem;
   transition: 0.2s ease-in-out;
-  box-shadow: 3px 4px 3px 0px rgb(0 0 0 / 15%);
+  /* box-shadow: 3px 4px 3px 0px rgb(0 0 0 / 15%); */
 
   vertical-align: top;
   /* box-shadow: 2px 4px 0px #898999; */
@@ -10797,14 +10797,15 @@ p.lead {
   height: 4.4rem;
 
   padding: 0rem 2.2rem;
-  background: linear-gradient(to right, #42ccf1, #ff9991);
+  background: linear-gradient(to right, #42ccf1, #b58de0, #ff9991);
   color: #fff;
   border-radius: 100%;
   font-size: 1.2rem;
   margin-right: 1rem;
   transition: 0.2s ease-in-out;
-  box-shadow: 3px 4px 3px 0px rgb(0 0 0 / 15%);
-  border: none;
+  /* box-shadow: 3px 4px 3px 0px rgb(0 0 0 / 15%); */
+
+  border: 2px solid white;
   text-decoration: none;
   transform: none;
   border-radius: 40px;
@@ -10815,7 +10816,6 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .email-icon:hover {
-  color: var(--blue);
   transform: translateY(-4px);
 
   box-shadow: 5px 6px 5px 0px rgb(0 0 0 / 15%);
@@ -11051,7 +11051,6 @@ Slider
   max-width: 33.5rem;
   background: #46aae4;
 
-  box-shadow: 0px 1px 1px 0px rgb(0 0 0 / 10%);
   /* border-bottom: 1px solid var(--gray-dark); */
 }
 
@@ -11201,6 +11200,7 @@ Slider
   height: 100%;
   /* background: rgba(5, 8, 10, 0.5); */
   background: rgba(0, 0, 0, 0.25);
+  
   display: grid;
   place-items: center;
   /* transition: var(--transition); */
@@ -11224,6 +11224,7 @@ Slider
     #74787c
   ); */
   background: var(--blue);
+  background: linear-gradient(to right, #42ccf1, #b58de0, #ff9991);
   /* border-radius: 8px; */
   color: var(--black);
   width: 95%;
