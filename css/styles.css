@@ -6140,7 +6140,7 @@ a.close.disabled {
 @media (min-width: 992px) {
   .modal-lg,
   .modal-xl {
-    max-width: 800px;
+    max-width: 650px;
   }
 }
 @media (min-width: 1200px) {
@@ -10770,8 +10770,8 @@ p.lead {
   color: #566573;
   border-radius: 100%;
 
-  font-size: 1.5rem;
-  margin-right: 2.35rem;
+  font-size: 1.4rem;
+  margin-right: 2.25rem;
   transition: 0.2s ease-in-out;
   /* box-shadow: 3px 4px 3px 0px rgb(0 0 0 / 15%); */
 
@@ -10818,7 +10818,6 @@ p.lead {
 }
 .social-icons .email-icon:hover {
   transform: translateY(-4px);
-
   box-shadow: 5px 6px 5px 0px rgb(0 0 0 / 15%);
 }
 
@@ -11242,14 +11241,14 @@ form .submit {
 
   vertical-align: top;
 
-  transition: 0.3s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 form .submit:hover {
   cursor: pointer;
 
-  box-shadow: 3px 4px 3px 0px rgb(0 0 0 / 15%);
-  transform: translateY(-1px);
+  box-shadow: 5px 6px 5px 0px rgb(0 0 0 / 15%);
+  transform: translateY(-4px);
 }
 
 /* modal new */
@@ -11273,4 +11272,21 @@ form .submit:hover {
   line-height: 3rem;
   color: var(--black);
   opacity: 1;
+}
+
+
+/* Scroll to top button */
+
+.scroll-to-top {
+  z-index: 1042;
+  right: 1rem;
+  bottom: 1rem;
+  display: none;
+  font-size: 1.5rem;
+}
+.scroll-to-top a {
+  width: 4rem;
+  height: 4rem;
+  background-color: rgba(33, 37, 41, 0.7);
+  line-height: 3.5rem;
 }

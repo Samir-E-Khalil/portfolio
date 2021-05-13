@@ -86,9 +86,9 @@ if ($(window).width() > 768) {
   // on scroll event
   window.addEventListener("scroll", function () {
     if (isMobile === false) {
-      parallax(".parallax1", window.scrollY, 0.225);
-      parallax(".parallax2", window.scrollY, 0.525);
-      parallax(".parallax3", window.scrollY, 0.625);
+      parallax(".parallax1", window.scrollY, 0.200);
+      parallax(".parallax2", window.scrollY, 0.400);
+      parallax(".parallax3", window.scrollY, 0.600);
     } else {
       return;
     }
@@ -122,18 +122,3 @@ let letter = "";
   }
   setTimeout(type, 110);
 })();
-
-// // modal fx
-
-// const modalBtn = document.querySelector(".contact");
-// const modal = document.querySelector(".modal-overlay");
-// const closeBtn = document.querySelector(".close-btn");
-
-// modalBtn.addEventListener("click", function () {
-//   modal.classList.add("open-modal");
-//   $("html").css("overflow", "hidden");
-// });
-// closeBtn.addEventListener("click", function () {
-//   modal.classList.remove("open-modal");
-//   $("html").css("overflow", "auto");
-// });
