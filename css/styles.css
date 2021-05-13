@@ -10952,14 +10952,14 @@ Slider
   overflow: hidden;
   margin-top: 4rem;
   /* border-radius: 0px 25px 0px 25px; */
-  box-shadow: 1px 2px 7px 2px rgb(0 0 0 / 20%);
+  box-shadow: 1px 2px 7px 0px rgb(0 0 0 / 25%);
 }
 
 .slide {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #080d148c;
+  background: #00020780;
   color: var(--clr-white);
   display: grid;
   place-items: center;
