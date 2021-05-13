@@ -10480,7 +10480,7 @@ a.text-info:focus {
 }
 
 .text-warning {
-  color: #ffc107 !important;
+  color: #f3c334 !important;
 }
 
 a.text-warning:hover,
@@ -10816,6 +10816,8 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .email-icon:hover {
+  background: #fff;
+  color: var(--blue);
   transform: translateY(-4px);
   box-shadow: 5px 6px 5px 0px rgb(0 0 0 / 15%);
 }
@@ -11048,7 +11050,7 @@ Slider
   height: 1.2rem;
   padding: 2px 5px;
   max-width: 33.5rem;
-  background: #46aae4;
+  background: var(--blue);
 
   /* border-bottom: 1px solid var(--gray-dark); */
 }
