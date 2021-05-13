@@ -80,8 +80,7 @@ body {
   color: #c6ccd3;
   text-align: left;
 
-  /* background: #818c96; */
-  background: #919ba5;
+  background: #818c96;
 
   /* background: linear-gradient(to top, #2c3e50, #bdc3c7);
   background: -webkit-linear-gradient(to top, #2c3e50, #bdc3c7);
@@ -6698,7 +6697,7 @@ a.close.disabled {
 
 .bg-primary {
   background: var(--blue);
-  /* box-shadow: 0px 0px 8px 2px rgb(0 0 0 / 10%); */
+  box-shadow: 0px 0px 8px 2px rgb(0 0 0 / 10%);
 }
 
 a.bg-primary:hover,
@@ -10876,7 +10875,7 @@ section.resume-section .resume-section-content {
 }
 
 h2.white-text {
-  text-shadow: 2px 4px 0px #8a949e;
+  text-shadow: 2px 4px 0px #76768a;
 }
 
 #hand {
