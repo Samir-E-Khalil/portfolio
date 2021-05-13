@@ -539,8 +539,7 @@ h6,
 }
 
 .black-text {
-  /* color: #162229; */
-  color: #131f25;
+  color: #001a21;
 }
 
 .purple-text {
@@ -548,7 +547,6 @@ h6,
 }
 
 .white-text ul li h2 {
-  /* color: white; */
   font-size: 2.1rem;
   text-shadow: none;
 }
@@ -11273,7 +11271,6 @@ form .submit:hover {
   color: var(--black);
   opacity: 1;
 }
-
 
 /* Scroll to top button */
 
