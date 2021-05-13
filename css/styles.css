@@ -2826,26 +2826,26 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #bd5d38;
-  border-color: #bd5d38;
+  background-color: var(--black);
+  border-color: var(--black);
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #9f4e2f;
-  border-color: #964a2c;
+  background-color: var(--gray-dark);
+  border-color: var(--gray-dark);
 }
 .btn-primary:focus,
 .btn-primary.focus {
   color: #fff;
-  background-color: #9f4e2f;
-  border-color: #964a2c;
+  background-color: var(--black);
+  border-color: var(--black);
   box-shadow: 0 0 0 0.2rem rgba(199, 117, 86, 0.5);
 }
 .btn-primary.disabled,
 .btn-primary:disabled {
   color: #fff;
-  background-color: #bd5d38;
-  border-color: #bd5d38;
+  background-color: var(--gray-dark);
+  border-color: var(--gray-dark);
 }
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
@@ -6085,7 +6085,7 @@ a.close.disabled {
 .modal-body {
   position: relative;
   flex: 1 1 auto;
-  padding: 1rem;
+  padding: 2.5rem 1rem;
 }
 
 .modal-footer {
@@ -6153,9 +6153,9 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -11192,66 +11192,6 @@ Slider
   }
 }
 
-/* modal */
-.modal-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  /* background: rgba(5, 8, 10, 0.5); */
-  background: rgba(0, 0, 0, 0.25);
-  display: grid;
-  place-items: center;
-  /* transition: var(--transition); */
-  visibility: hidden;
-  z-index: 100;
-}
-/* OPEN/CLOSE MODAL */
-
-.open-modal {
-  visibility: visible;
-  z-index: 110;
-}
-.modal-container {
-  /*   
-  background: linear-gradient(
-    to top right,
-    #74787c,
-    #888e94,
-    #74787c,
-    #888e94,
-    #74787c
-  ); */
-  background: var(--blue);
-  /* border-radius: 8px; */
-  color: var(--black);
-  width: 95%;
-  margin-top: 1.5rem;
-  padding: 3rem 1rem;
-  max-width: 40rem;
-  text-align: center;
-  display: grid;
-  place-items: center;
-  position: relative;
-  /* box-shadow: inset 0px 0px 3px rgb(228, 228, 228); */
-  box-shadow: 1px 1px 4px 0px rgb(0 0 0 / 15%);
-}
-.close-btn {
-  position: absolute;
-  top: 0.35rem;
-  right: 0.6rem;
-  font-size: 1.6rem;
-  background: transparent;
-  border-color: transparent;
-  color: var(--gray-dark);
-  cursor: pointer;
-  /* transition: var(--transition); */
-}
-.close-btn:hover {
-  transform: scale(1.1);
-}
-
 /* form */
 form {
   margin-top: 50px;
@@ -11265,7 +11205,7 @@ form {
 
 .form-control {
   margin: 0px auto;
-  width: 85%;
+  width: 100%;
 
   background: transparent;
   border: none;
@@ -11288,7 +11228,7 @@ input {
 }
 
 form .submit {
-  background: white;
+  background: var(--blue);
   border-color: transparent;
   font-size: 1.3rem;
   font-weight: 600;
@@ -11298,17 +11238,39 @@ form .submit {
   width: 12rem;
   height: 4rem;
 
-  color: #566573;
+  color: #fff;
 
   vertical-align: top;
 
-  box-shadow: 3px 4px 3px 0px rgb(0 0 0 / 15%);
-  /* transition: 0.2s ease-in-out; */
+  transition: 0.3s ease-in-out;
 }
 
 form .submit:hover {
-  color: var(--blue);
   cursor: pointer;
 
+  box-shadow: 3px 4px 3px 0px rgb(0 0 0 / 15%);
   transform: translateY(-1px);
+}
+
+/* modal new */
+
+.portfolio-modal .portfolio-modal-title {
+  font-size: 2.25rem;
+  line-height: 2rem;
+}
+@media (min-width: 992px) {
+  .portfolio-modal .portfolio-modal-title {
+    font-size: 3rem;
+    line-height: 2.5rem;
+  }
+}
+.portfolio-modal .close {
+  position: absolute;
+  z-index: 1;
+  right: 1.2rem;
+  top: 0.2rem;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: var(--black);
+  opacity: 1;
 }

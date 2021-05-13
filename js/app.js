@@ -123,17 +123,17 @@ let letter = "";
   setTimeout(type, 110);
 })();
 
-// modal fx
+// // modal fx
 
-const modalBtn = document.querySelector(".contact");
-const modal = document.querySelector(".modal-overlay");
-const closeBtn = document.querySelector(".close-btn");
+// const modalBtn = document.querySelector(".contact");
+// const modal = document.querySelector(".modal-overlay");
+// const closeBtn = document.querySelector(".close-btn");
 
-modalBtn.addEventListener("click", function () {
-  modal.classList.add("open-modal");
-  $("html").css("overflow", "hidden");
-});
-closeBtn.addEventListener("click", function () {
-  modal.classList.remove("open-modal");
-  $("html").css("overflow", "auto");
-});
+// modalBtn.addEventListener("click", function () {
+//   modal.classList.add("open-modal");
+//   $("html").css("overflow", "hidden");
+// });
+// closeBtn.addEventListener("click", function () {
+//   modal.classList.remove("open-modal");
+//   $("html").css("overflow", "auto");
+// });

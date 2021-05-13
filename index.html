@@ -141,10 +141,30 @@
     
     
     <!-- modal -->
-    <div class="modal-overlay">
-      <div class="modal-container ">
-        <div class="contact-form">
-          <h3 class="white-text">contact</h3>
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal1"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="portfolioModal1Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <button
+            class="close"
+            type="button"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true"><i class="fas fa-times"></i></span>
+          </button>
+          <div class="modal-body text-center">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- Portfolio Modal - Title-->
+                  <h3 class="black-text">contact</h3>
           <form id="contact-form frm " method="post" action="php/contact-form-handler.php" data-netlify="true">
             <input type="text" name="name" class="form-control" placeholder="Name" required> 
             <br>
@@ -159,10 +179,19 @@
 
           </form>
 
+                  <br />
+                  <button class="btn btn-primary" data-dismiss="modal">
+                    <i class="fas fa-times fa-fw"></i>
+                    Close Window
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <button class="close-btn"><i class="fas fa-times"></i></button>
       </div>
     </div>
+
     
     <div class="container-fluid p-0">
       <!-- About-->
@@ -240,7 +269,10 @@
               ><i class="fab fa-facebook-f"></i
             ></a>
 
-            <button class="email-icon contact">
+            <button class="email-icon contact" 
+            class="portfolio-item mx-auto"
+            data-toggle="modal"
+            data-target="#portfolioModal1">
               <i class="fas fa-envelope"></i> 
                 &nbsp;
                 &nbsp;
