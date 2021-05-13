@@ -10795,7 +10795,8 @@ p.lead {
   height: 4.4rem;
 
   padding: 0rem 2.2rem;
-  background: linear-gradient(to right, #42ccf1, #b58de0, #ff9991);
+  /* background: linear-gradient(to right, #42ccf1, #b58de0, #ff9991); */
+  background: var(--blue);
   color: #fff;
   border-radius: 100%;
 
@@ -10804,7 +10805,7 @@ p.lead {
   transition: 0.2s ease-in-out;
   /* box-shadow: 3px 4px 3px 0px rgb(0 0 0 / 15%); */
 
-  border: 2px solid white;
+  border: none;
   text-decoration: none;
   transform: none;
   border-radius: 40px;
