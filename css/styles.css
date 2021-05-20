@@ -10864,13 +10864,13 @@ section.resume-section .resume-section-content {
 
 #interests {
   background-image: url(../assets/img/interests.png),
-    linear-gradient(to right, #0044ff00, #0044ff05);
+    linear-gradient(to right, #00227e05, #00227e05);
   background-blend-mode: darken;
   background-attachment: fixed;
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
-  opacity: 0.9;
+  /* opacity: 0.9; */
 }
 
 #shadow-interests {
@@ -10881,9 +10881,9 @@ section.resume-section .resume-section-content {
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
-  background-color: #000511b0;
+  background-color: #000511c9;
 
-  box-shadow: -1px 8px 6px 2px #3d4047, -1px -8px 6px 2px #54565e;
+  box-shadow: -1px 8px 6px 2px #272a30, -1px -8px 6px 2px #43434d;
 }
 
 h2.white-text {
