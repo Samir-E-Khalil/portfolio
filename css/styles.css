@@ -8259,6 +8259,11 @@ button.bg-dark:focus {
   margin-bottom: 1.5rem !important;
 }
 
+.mb-4-5,
+.my-4-5 {
+  margin-bottom: 2rem !important;
+}
+
 .ml-4,
 .mx-4 {
   margin-left: 1.5rem !important;
@@ -10789,7 +10794,7 @@ p.lead {
   color: var(--blue);
   transform: translateY(-4px);
 
-  box-shadow: 5px 6px 5px 0px rgb(0 0 0 / 15%);
+  box-shadow: 3px 4px 5px 0px rgb(0 0 0 / 15%);
 }
 
 /* email icons */
@@ -10825,7 +10830,7 @@ p.lead {
   background: #fff;
   color: var(--blue);
   transform: translateY(-4px);
-  box-shadow: 5px 6px 5px 0px rgb(0 0 0 / 15%);
+  box-shadow: 3px 4px 5px 0px rgb(0 0 0 / 15%);
 }
 
 .dev-icons {
@@ -10886,7 +10891,6 @@ section.resume-section .resume-section-content {
   background-position: right;
   background-repeat: no-repeat;
   background-color: #000511c9;
-
 }
 
 h2.white-text {
@@ -10967,7 +10971,7 @@ Slider
   overflow: hidden;
   margin-top: 4rem;
   /* border-radius: 0px 25px 0px 25px; */
-  box-shadow: 1px 2px 7px 0px rgb(0 0 0 / 25%);
+  /* box-shadow: 1px 2px 7px 0px rgb(0 0 0 / 25%); */
 }
 
 .slide {
@@ -11227,7 +11231,7 @@ form {
   background: transparent;
   border: none;
   outline: none;
-  border-bottom: 1px solid var(--gray);
+  border-bottom: 1px solid var(--blue);
   color: #fff;
   font-size: 1rem;
   margin-bottom: 1rem;
@@ -11265,7 +11269,7 @@ form .submit {
 form .submit:hover {
   cursor: pointer;
 
-  box-shadow: 5px 6px 5px 0px rgb(0 0 0 / 15%);
+  box-shadow: 3px 4px 5px 0px rgb(0 0 0 / 15%);
   transform: translateY(-4px);
 }
 
@@ -11288,7 +11292,7 @@ form .submit:hover {
   top: 0.2rem;
   font-size: 2rem;
   line-height: 3rem;
-  color: var(--black);
+  color: var(--blue);
   opacity: 1;
 }
 
