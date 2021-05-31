@@ -11232,7 +11232,7 @@ form {
   border: none;
   outline: none;
   border-bottom: 1px solid var(--blue);
-  color: #fff;
+  color: var(--blue);
   font-size: 1rem;
   margin-bottom: 1rem;
   border-radius: 0px;
