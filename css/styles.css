@@ -572,7 +572,7 @@ h6,
 }
 
 .gray-text {
-  color: #566573;
+  color: #818c96;
 }
 
 .blue-text {
@@ -11050,7 +11050,6 @@ Slider
   }
 }
 
-
 .intro-text {
   /* padding-left: 1rem; */
   text-overflow: initial;
@@ -11080,7 +11079,7 @@ Slider
   height: 1.2rem;
   padding: 2px 5px;
   max-width: 98%;
-  background: rgb(61, 144, 238);
+  background: #616a73;
 
   /* border-bottom: 1px solid var(--gray-dark); */
 }
@@ -11108,7 +11107,8 @@ Slider
   border-top: 3px solid var(--gray-dark);
   border-bottom: 3px solid var(--gray-dark);
   height: 1.9rem;
-  color: var(--green);
+  /* color: var(--green); */
+  color: #818c96;
   position: relative;
   width: 100%;
 }
