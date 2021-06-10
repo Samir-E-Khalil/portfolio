@@ -4846,7 +4846,7 @@ input[type="button"].btn-block {
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #fff;
+  color: var(--blue);
 }
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.5);
@@ -7047,7 +7047,7 @@ button.bg-dark:focus {
   }
 
   .white-text ul li h2 {
-    font-size: 2.2rem;
+    font-size: 2.55rem;
   }
 
   .bg-primary {
@@ -10834,7 +10834,7 @@ p.lead {
 }
 
 .dev-icons {
-  font-size: 2.35rem;
+  font-size: 2.85rem;
 }
 section.resume-section {
   display: flex;
@@ -11050,6 +11050,16 @@ Slider
   }
 }
 
+
+.intro-text {
+  /* padding-left: 1rem; */
+  text-overflow: initial;
+  display: flex;
+  max-width: 33.5rem;
+
+  /* border-bottom: 2px solid var(--gray-dark); */
+}
+
 /* typing animation */
 
 .intro {
@@ -11057,8 +11067,9 @@ Slider
   padding-top: 3px;
   display: flex;
   height: 5.9rem;
-  max-width: 33.5rem;
+  max-width: 98%;
   background: #222222;
+  font-weight: lighter;
 
   /* border-bottom: 2px solid var(--gray-dark); */
 }
@@ -11068,8 +11079,8 @@ Slider
   overflow: hidden;
   height: 1.2rem;
   padding: 2px 5px;
-  max-width: 33.5rem;
-  background: var(--blue);
+  max-width: 98%;
+  background: rgb(61, 144, 238);
 
   /* border-bottom: 1px solid var(--gray-dark); */
 }

@@ -86,7 +86,7 @@ if ($(window).width() > 768) {
   // on scroll event
   window.addEventListener("scroll", function () {
     if (isMobile === false) {
-      parallax(".parallax1", window.scrollY, 0.200);
+      parallax(".parallax1", window.scrollY, 0.150);
       parallax(".parallax2", window.scrollY, 0.400);
       parallax(".parallax3", window.scrollY, 0.600);
     } else {
@@ -99,7 +99,7 @@ if ($(window).width() > 768) {
 const texts = [
   "Game Development ",
   "Programming ",
-  " UI & UX Design ",
+  " UI Design ",
   "Web Design ",
   "Web Development ",
 ];
