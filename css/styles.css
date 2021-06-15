@@ -10743,8 +10743,7 @@ p.lead {
     max-width: 10rem;
     max-height: 10rem;
     background-color: transparent 80%;
-    border: 0.38rem solid rgba(255, 255, 255, 0.43);
-
+    /* border: 0.38rem solid rgba(255, 255, 255, 0.43); */
     /* box-shadow: 1px 1px 1px 1px #00000025, -1px -1px 1px 1px #ffffff60; */
   }
 
@@ -10858,7 +10857,7 @@ section.resume-section .resume-section-content {
   position: absolute;
   min-height: 100%;
   width: 14rem;
-  background: #151d27;
+  background: #000207e1;
   z-index: 100;
   right: calc(100% - 14rem);
 }
@@ -10868,13 +10867,13 @@ section.resume-section .resume-section-content {
 #interests,
 #awards {
   /* border-radius: 0px 45px 0px 45px; */
-  background-color: #00020780;
+  background-color: #000207e1;
 }
 
 #interests {
   background-image: url(../assets/img/interests.png),
-    linear-gradient(to right, #00227e05, #00227e05);
-  background-blend-mode: darken;
+    linear-gradient(to right, #000207e1, #000207e1);
+  /* background-blend-mode: darken; */
   background-attachment: fixed;
   background-size: cover;
   background-position: right;
@@ -10883,14 +10882,14 @@ section.resume-section .resume-section-content {
 }
 
 #shadow-interests {
-  filter: blur(6px);
+  filter: blur(4px);
   background-image: url(../assets/img/interests.jpg);
   background-blend-mode: darken;
   background-attachment: fixed;
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
-  background-color: #000511c9;
+  background-color: #000207e1;
 }
 
 h2.white-text {
@@ -10989,6 +10988,9 @@ Slider
   max-height: 80%;
   max-width: 90%;
   object-fit: contain;
+  -o-object-fit: contain;
+  object-position: center;
+  -o-object-position: center;
   align-self: center;
 }
 
@@ -11005,7 +11007,7 @@ Slider
 }
 
 .slide {
-  background: linear-gradient(#080d148c, #080d148c);
+  background: linear-gradient(#080d1400, #080d1400);
   align-content: center;
 }
 
@@ -11146,6 +11148,8 @@ Slider
   height: 100vh;
   max-height: 100%;
   z-index: -300;
+
+  left: 0px;
 
   background-repeat: no-repeat;
   position: fixed;
