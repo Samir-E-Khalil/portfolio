@@ -4411,15 +4411,15 @@ input[type="button"].btn-block {
 }
 
 .nav-link {
-  font-size: 1.05rem;
+  font-size: 1rem;
   display: block;
-  padding: 0.6rem 1rem;
+  padding: 0.55rem 1rem;
 
   text-align: center;
 }
 
 .nav-icon {
-  font-size: 1.6rem;
+  font-size: 1.9rem;
 }
 
 .nav-link:hover,
@@ -7054,18 +7054,12 @@ button.bg-dark:focus {
     /* background: #ffffff33; */
     background: linear-gradient(
       to top right,
-      #ffffff33,
-      #ffffff43,
-      #ffffff33,
-      #ffffff43,
-      #ffffff33
+      #ffffff09,
+      #ffffff19,
+      #ffffff09,
+      #ffffff19,
+      #ffffff09
     );
-
-    /* box-shadow: inset -2px 0px 2px 0px #a2a9b0, 0px 0px 8px 2px rgb(0 0 0 / 10%); */
-
-    /*     
-    box-shadow: inset -2px 0px 2px 0px #b6bdc3ee,
-      0px 0px 8px 2px rgb(0 0 0 / 10%); */
   }
 
   .d-lg-none {
@@ -10779,7 +10773,7 @@ p.lead {
   border-radius: 100%;
 
   font-size: 1.4rem;
-  margin-right: 2.25rem;
+  margin-right: 2rem;
   transition: 0.2s ease-in-out;
   /* box-shadow: 3px 4px 3px 0px rgb(0 0 0 / 15%); */
 
@@ -10855,11 +10849,24 @@ section.resume-section .resume-section-content {
   filter: blur(6px);
   visibility: hidden;
   position: absolute;
-  min-height: 100%;
-  width: 14rem;
+  min-height: 99.9%;
+  width: 15rem;
   background: #000207e1;
   z-index: 100;
+  right: calc(100% - 13.9rem);
+}
+
+
+.shadow-connect-div {
+  filter: blur(2px);
+  /* visibility: hidden; */
+  position: absolute;
+  min-height: 99.9%;
+  width: 15rem;
+  background: #1f2125e1;
+  z-index: 100;
   right: calc(100% - 14rem);
+
 }
 
 #education,
@@ -10889,7 +10896,7 @@ section.resume-section .resume-section-content {
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
-  background-color: #000207e1;
+  background-color: #000207c9;
 }
 
 h2.white-text {
@@ -11056,6 +11063,10 @@ Slider
   /* padding-left: 1rem; */
   text-overflow: initial;
   display: flex;
+  text-indent: 0px;
+  text-align: justify;
+  border-spacing: 0px;
+  word-spacing: 0px;
   max-width: 33.5rem;
 
   /* border-bottom: 2px solid var(--gray-dark); */
@@ -11319,11 +11330,12 @@ form .submit:hover {
   bottom: 1rem;
   display: none;
   font-size: 1.4rem;
+  /* color: rgb(255, 255, 255); */
 }
 .scroll-to-top a {
   border-radius: 100%;
   width: 4.4rem;
   height: 4.4rem;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.75);
   line-height: 4.4rem;
 }
