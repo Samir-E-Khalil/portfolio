@@ -16,15 +16,7 @@ prevBtn.addEventListener("click", function () {
 });
 
 function carousel() {
-  // working with slides
-  // if (counter === slides.length) {
-  //   counter = 0;
-  // }
-  // if (counter < 0) {
-  //   counter = slides.length - 1;
-  // }
-  // working with buttons
-
+  
   if (counter < slides.length - 1) {
     nextBtn.style.display = "block";
   } else {
