@@ -96,17 +96,17 @@ body {
 .theme-image-blue {
   top: 0%;
   right: 0px;
-  max-height: 100%;
   display: none;
-  max-width: 38%;
   position: absolute;
+  
+  min-width: 33%;
   z-index: -95;
 }
 
+
 .theme-image {
-  /* top: 22%; */
   top: 2.6rem;
-  right: 0%;
+  right: 2%;
   display: none;
   max-width: 32%;
   position: absolute;
@@ -116,11 +116,9 @@ body {
 /* BG Animation */
 
 .animation-area {
-  /* background: linear-gradient(to right, #485da6, #00a1ba, #00bf98, #36c486); */
   background: transparent;
   position: absolute;
   width: 100%;
-  /* height: calc(100vh - 56px); */
   height: 100vh;
   max-height: 100%;
   z-index: -100;
@@ -10859,7 +10857,7 @@ section.resume-section .resume-section-content {
 
 .shadow-connect-div {
   filter: blur(2px);
-  /* visibility: hidden; */
+  visibility: hidden;
   position: absolute;
   min-height: 99.9%;
   width: 15rem;
@@ -11234,6 +11232,10 @@ Slider
     visibility: visible;
   }
 
+  .shadow-connect-div{
+    visibility: visible;
+  }
+  
   .nav-animation-area {
     visibility: visible;
   }

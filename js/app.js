@@ -79,8 +79,8 @@ if ($(window).width() > 768) {
   window.addEventListener("scroll", function () {
     if (isMobile === false) {
       parallax(".parallax1", window.scrollY, 0.100);
-      parallax(".parallax2", window.scrollY, 0.400);
-      parallax(".parallax3", window.scrollY, 0.600);
+      parallax(".parallax2", window.scrollY, 0.450);
+      parallax(".parallax3", window.scrollY, 0.520);
     } else {
       return;
     }
