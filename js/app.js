@@ -16,7 +16,6 @@ prevBtn.addEventListener("click", function () {
 });
 
 function carousel() {
-  
   if (counter < slides.length - 1) {
     nextBtn.style.display = "block";
   } else {
@@ -78,9 +77,9 @@ if ($(window).width() > 768) {
   // on scroll event
   window.addEventListener("scroll", function () {
     if (isMobile === false) {
-      parallax(".parallax1", window.scrollY, 0.100);
-      parallax(".parallax2", window.scrollY, 0.450);
-      parallax(".parallax3", window.scrollY, 0.520);
+      parallax(".parallax1", window.scrollY, 0.1);
+      parallax(".parallax2", window.scrollY, 0.45);
+      parallax(".parallax3", window.scrollY, 0.52);
     } else {
       return;
     }
@@ -90,10 +89,10 @@ if ($(window).width() > 768) {
 
 const texts = [
   "Game Development ",
+  "App Development ",
+  "Website Development ",
+  "UI Design ",
   "Programming ",
-  " UI Design ",
-  "Web Design ",
-  "Web Development ",
 ];
 let count = 0;
 let index = 0;
