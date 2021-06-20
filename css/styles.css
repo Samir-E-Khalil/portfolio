@@ -7049,14 +7049,13 @@ button.bg-dark:focus {
   }
 
   .bg-primary {
-    /* background: #ffffff33; */
     background: linear-gradient(
-      to top right,
-      #ffffff09,
-      #ffffff19,
-      #ffffff09,
-      #ffffff19,
-      #ffffff09
+      to top left,
+      #ffffff10,
+      #ffffff20,
+      #ffffff10,
+      #ffffff20,
+      #ffffff10
     );
   }
 
@@ -10970,7 +10969,6 @@ Slider
   max-height: 50vh;
   position: relative;
   border: 5px solid #000207e1;
-  
   overflow: hidden;
   margin-top: 4rem;
   box-shadow: inset 0px 0px 10px 4px rgb(0 0 0 / 95%);
