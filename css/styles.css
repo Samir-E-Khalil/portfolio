@@ -10846,7 +10846,7 @@ section.resume-section .resume-section-content {
   filter: blur(6px);
   visibility: hidden;
   position: absolute;
-  min-height: 99.9%;
+  min-height: 99.59%;
   width: 15rem;
   background: #000207e1;
   z-index: 100;
@@ -10858,7 +10858,7 @@ section.resume-section .resume-section-content {
   filter: blur(2px);
   visibility: hidden;
   position: absolute;
-  min-height: 99.9%;
+  min-height: 99.59%;
   width: 15rem;
   background: #1f2125e1;
   z-index: 100;
@@ -10894,6 +10894,8 @@ section.resume-section .resume-section-content {
   background-position: right;
   background-repeat: no-repeat;
   background-color: #000207c9;
+  width: 15rem;
+  min-height: 99.6%;
 }
 
 h2.white-text {
