@@ -10765,7 +10765,7 @@ p.lead {
   height: 4.4rem;
   width: 4.4rem;
   /* background-color: #00c9b7; */
-  background: white;
+  background: #001a21;
   color: #566573;
   border-radius: 100%;
 
@@ -10798,7 +10798,7 @@ p.lead {
   padding: 0rem 2.2rem;
   /* background: linear-gradient(to right, #42ccf1, #b58de0, #ff9991); */
   background: var(--blue);
-  color: #fff;
+  color: #001a21;
   border-radius: 100%;
 
   font-size: 1.2rem;
@@ -11352,6 +11352,63 @@ form .submit:hover {
   border-radius: 100%;
   width: 4.4rem;
   height: 4.4rem;
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(241, 237, 237, 0.75);
   line-height: 4.4rem;
+}
+
+/* scroll down button */
+.scroll-down {
+  
+  font-size: 3.5rem;
+}
+
+.scroll-down p {
+  position: absolute;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+.scroll-down-div {
+  padding: 0px;
+  margin: 0rem;
+  width: 5.8rem;
+  font-size: 2.4rem;
+  
+  line-height: 0px;
+  margin-left: 6.7rem;
+}
+
+/*  on scroll animaitons */ 
+
+.fade-in-scroll {
+  opacity: 0;
+  transition: opacity 600ms ease-in;
+}
+
+.fade-in-scroll.appear{
+  opacity: 1;
+}
+
+.from-left{
+  transform: translateX(-50%);
+
+}
+
+.from-right{
+
+  transform: translateX(25%);
+}
+
+.from-left,.from-right{
+  
+  opacity: 0;
+  transition: transform 500ms ease-in, opacity 500ms ease-in;
+}
+
+
+.from-left.appear,
+.from-right.appear{
+  
+  opacity: 1;
+  transform: translateX(0);
+  
 }
