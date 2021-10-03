@@ -51,11 +51,13 @@ $(window).on("resize load", function () {
     resetTransform("#about-content");
     resetTransform("#theme-blue");
     resetTransform("#theme-image");
+    resetTransform("#theme-statue");
 
     // remove parallax fx
     $("#about-content").removeClass("parallax1");
     $("#theme-image").removeClass("parallax2");
     $("#theme-blue").removeClass("parallax3");
+    $("#theme-statue").removeClass("parallax4");
   } else {
     isMobile = false;
 
@@ -63,6 +65,7 @@ $(window).on("resize load", function () {
     $("#about-content").addClass("parallax1");
     $("#theme-image").addClass("parallax2");
     $("#theme-blue").addClass("parallax3");
+    $("#theme-statue").addClass("parallax4");
   }
 });
 
@@ -79,7 +82,8 @@ if ($(window).width() > 768) {
     if (isMobile === false) {
       parallax(".parallax1", window.scrollY, 0.1);
       parallax(".parallax2", window.scrollY, 0.7);
-      parallax(".parallax3", window.scrollY, 0.85);
+      parallax(".parallax3", window.scrollY, 0.80);
+      parallax(".parallax4", window.scrollY, 0.99);
     } else {
       return;
     }

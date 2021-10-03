@@ -98,7 +98,8 @@ body {
   right: 0px;
   display: none;
   position: absolute;
-
+  
+  filter: blur(1px);
   min-width: 33%;
   z-index: -95;
 }
@@ -112,6 +113,17 @@ body {
   z-index: -90;
 }
 
+.theme-statue {
+  top: 21%;
+  right: 60px;
+  display: none;
+  position: absolute;
+  
+  filter: blur(3px);
+  z-index: -95;
+  max-width: 22%;
+}
+
 /* BG Animation */
 
 .animation-area {
@@ -121,7 +133,8 @@ body {
   height: 100vh;
   max-height: 100%;
   z-index: -100;
-
+  
+  filter: blur(2px);
   background-repeat: no-repeat;
   position: fixed;
 }
@@ -7036,7 +7049,8 @@ button.bg-dark:focus {
   }
 
   .theme-image,
-  .theme-image-blue {
+  .theme-image-blue,
+  .theme-statue {
     display: block;
   }
   p span {
