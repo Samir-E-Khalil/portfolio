@@ -94,8 +94,9 @@ if ($(window).width() > 768) {
 const texts = [
   "Game Development ",
   "App Development ",
-  "Website Development ",
+  "Web Design & Development ",
   "UI Design ",
+  "Graphic Design ",
   "Programming ",
 ];
 let count = 0;
