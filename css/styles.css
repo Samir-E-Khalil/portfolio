@@ -11375,7 +11375,7 @@ form .submit:hover {
 
 .fade-in-scroll {
   opacity: 0;
-  transition: opacity 600ms ease-in;
+  transition: opacity 400ms ease-in;
 }
 
 .fade-in-scroll.appear {
@@ -11393,7 +11393,7 @@ form .submit:hover {
 .from-left,
 .from-right {
   opacity: 0;
-  transition: transform 500ms ease-in, opacity 500ms ease-in;
+  transition: transform 400ms ease-in, opacity 400ms ease-in;
 }
 
 .from-left.appear,
