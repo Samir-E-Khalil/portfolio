@@ -11397,7 +11397,7 @@ form .submit:hover {
 }
 
 .from-left {
-  transform: translateX(-50%);
+  transform: translateX(-25%);
 }
 
 .from-right {
@@ -11433,7 +11433,7 @@ form .submit:hover {
   background-color: #001a21;
   position: absolute;
   margin-top: -1.45rem;
-  margin-left: -0.8rem;
+  margin-left: -0.74rem;
   z-index: -100;
 }
 
