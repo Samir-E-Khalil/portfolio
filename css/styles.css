@@ -98,11 +98,10 @@ body {
   right: 0px;
   display: none;
   position: absolute;
-  
+
   min-width: 33%;
   z-index: -95;
 }
-
 
 .theme-image {
   top: 2.6rem;
@@ -6040,7 +6039,7 @@ a.close.disabled {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: #fff;
+  background-color: #001116f1;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
   /* border-radius: 0.3rem; */
@@ -10766,7 +10765,7 @@ p.lead {
   width: 4.4rem;
   /* background-color: #00c9b7; */
   background: #001a21;
-  color: #566573;
+  color: #fff;
   border-radius: 100%;
 
   font-size: 1.4rem;
@@ -10853,7 +10852,6 @@ section.resume-section .resume-section-content {
   right: calc(100% - 13.9rem);
 }
 
-
 .shadow-connect-div {
   filter: blur(2px);
   visibility: hidden;
@@ -10863,7 +10861,6 @@ section.resume-section .resume-section-content {
   background: #1f2125e1;
   z-index: 100;
   right: calc(100% - 14rem);
-
 }
 
 #education,
@@ -10986,7 +10983,6 @@ Slider
   place-items: center;
   transition: all 0.25s ease-in-out;
   text-align: center;
-  
 }
 .slide-img {
   max-height: 90%;
@@ -10997,7 +10993,6 @@ Slider
   -o-object-position: center;
   align-self: center;
 }
-
 
 .slide-img-bg {
   z-index: -20;
@@ -11246,10 +11241,10 @@ Slider
     visibility: visible;
   }
 
-  .shadow-connect-div{
+  .shadow-connect-div {
     visibility: visible;
   }
-  
+
   .nav-animation-area {
     visibility: visible;
   }
@@ -11298,10 +11293,10 @@ form .submit {
   border-radius: 20rem;
   justify-content: center;
   text-align: center;
-  width: 12rem;
+  width: 9.4rem;
   height: 4rem;
 
-  color: #fff;
+  color: #001a21;
 
   vertical-align: top;
 
@@ -11350,15 +11345,14 @@ form .submit:hover {
 }
 .scroll-to-top a {
   border-radius: 100%;
-  width: 4.4rem;
-  height: 4.4rem;
-  background-color: rgba(241, 237, 237, 0.75);
-  line-height: 4.4rem;
+  width: 4.1rem;
+  height: 4.1rem;
+  background-color: #000207ab;
+  line-height: 4.1rem;
 }
 
 /* scroll down button */
 .scroll-down {
-  
   font-size: 3.5rem;
 }
 
@@ -11372,43 +11366,69 @@ form .submit:hover {
   margin: 0rem;
   width: 5.8rem;
   font-size: 2.4rem;
-  
+
   line-height: 0px;
   margin-left: 6.7rem;
 }
 
-/*  on scroll animaitons */ 
+/*  on scroll animaitons */
 
 .fade-in-scroll {
   opacity: 0;
   transition: opacity 600ms ease-in;
 }
 
-.fade-in-scroll.appear{
+.fade-in-scroll.appear {
   opacity: 1;
 }
 
-.from-left{
+.from-left {
   transform: translateX(-50%);
-
 }
 
-.from-right{
-
+.from-right {
   transform: translateX(25%);
 }
 
-.from-left,.from-right{
-  
+.from-left,
+.from-right {
   opacity: 0;
   transition: transform 500ms ease-in, opacity 500ms ease-in;
 }
 
-
 .from-left.appear,
-.from-right.appear{
-  
+.from-right.appear {
   opacity: 1;
   transform: translateX(0);
-  
+}
+
+/* underline text */
+.underline-text {
+  width: 20rem;
+  height: 0.8rem;
+  background-color: #001a21;
+  position: absolute;
+  margin-top: -0.4rem;
+  /* margin-left: -0.8rem; */
+  z-index: -100;
+}
+
+.underline-title {
+  width: 20rem;
+  height: 1.1rem;
+  background-color: #001a21;
+  position: absolute;
+  margin-top: -1.45rem;
+  margin-left: -0.8rem;
+  z-index: -100;
+}
+
+.underline-text-blue {
+  width: 20rem;
+  height: 0.8rem;
+  background-color: var(--blue);
+  position: absolute;
+  margin-top: -0.4rem;
+  /* margin-left: -0.8rem; */
+  /* z-index: -100; */
 }

@@ -130,10 +130,12 @@ const appearOnScroll = new IntersectionObserver(function (
 ) {
   entries.forEach((entry) => {
     if (!entry.isIntersecting) {
-      return;
+      
+      entry.target.classList.remove("appear");
+      // return;
     } else {
       entry.target.classList.add("appear");
-      appearOnScroll.unobserve(entry.target);
+      // appearOnScroll.unobserve(entry.target);
     }
   });
 },
