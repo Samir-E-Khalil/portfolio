@@ -6698,7 +6698,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background: var(--black);
+  background: #001a21;
   /* box-shadow: 0px 0px 8px 2px rgb(0 0 0 / 10%); */
 }
 
