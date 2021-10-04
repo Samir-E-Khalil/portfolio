@@ -119,7 +119,7 @@ body {
   display: none;
   position: absolute;
   
-  filter: blur(3px);
+  filter: blur(2px);
   z-index: -95;
   max-width: 22%;
 }
