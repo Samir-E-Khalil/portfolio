@@ -80,12 +80,12 @@ body {
   color: #c6ccd3;
   text-align: left;
 
-  background: #818c96;
+/*   background: #818c96; */
 
-  /* background: linear-gradient(to top, #2c3e50, #bdc3c7);
+  background: linear-gradient(to top, #2c3e50, #bdc3c7);
   background: -webkit-linear-gradient(to top, #2c3e50, #bdc3c7);
   background: -o-linear-gradient(to top, #2c3e50, #bdc3c7);
-  background: -moz-linear-gradient(to top, #2c3e50, #bdc3c7); */
+  background: -moz-linear-gradient(to top, #2c3e50, #bdc3c7);
 
   background-repeat: no-repeat;
   background-attachment: fixed;
