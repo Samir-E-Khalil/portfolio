@@ -6053,6 +6053,13 @@ a.close.disabled {
   width: 100%;
   pointer-events: auto;
   background-color: #001116f1;
+  background: rgb(0,0,0);
+  background: -moz-linear-gradient(0deg, rgba(0,0,0,0.8561799719887955) 0%, rgba(16,20,24,1) 62%, rgba(25,32,38,1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(0,0,0,0.8561799719887955) 0%, rgba(16,20,24,1) 62%, rgba(25,32,38,1) 100%);
+  background: linear-gradient(0deg, rgba(0,0,0,0.8561799719887955) 0%, rgba(16,20,24,1) 62%, rgba(25,32,38,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#192026",GradientType=1);
+
+  
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
   /* border-radius: 0.3rem; */
