@@ -11346,9 +11346,9 @@ form .submit:hover {
 .portfolio-modal .close {
   position: absolute;
   z-index: 1;
-  right: 1.2rem;
-  top: 0.2rem;
-  font-size: 1.5rem;
+  right: 1.15rem;
+  top: 0rem;
+  font-size: 1.4rem;
   line-height: 3rem;
   color: var(--blue);
   opacity: 1;
