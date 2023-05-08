@@ -124,6 +124,17 @@ body {
   max-width: 22%;
 }
 
+.theme-circle {
+  top: 6px;
+  right: -35px;
+  display: none;
+  position: absolute;
+  
+  filter: blur(2px);
+  z-index: -95;
+  /* max-width: 23%; */
+}
+
 /* BG Animation */
 
 .animation-area {
@@ -7057,7 +7068,8 @@ button.bg-dark:focus {
 
   .theme-image,
   .theme-image-blue,
-  .theme-statue {
+  .theme-statue,
+  .theme-circle {
     display: block;
   }
   p span {
@@ -11452,4 +11464,50 @@ form .submit:hover {
   margin-top: -0.4rem;
   /* margin-left: -0.8rem; */
   /* z-index: -100; */
+}
+/* Circle animation */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.circle-container {
+  width: 35em;
+  height: 20em;
+  position: absolute;
+  margin-top: calc(50vh - 3.5em);
+  margin-left: calc(50vw - 3.5em);
+}
+
+.circle {
+  width: 100%;
+  height: 100%;
+  background-color: var(--blue);
+  position: absolute;
+  border-radius: 50%;
+  animation: ripple-animation 1.5s infinite ease-out;
+}
+
+.circle1 {
+  animation-delay: 0s;
+}
+
+.circle2 {
+  animation-delay: 500ms;
+}
+
+.circle3 {
+  animation-delay: 1s;
+}
+
+@keyframes ripple-animation {
+  0% {
+    transform: scale(0.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
 }
